@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập tên của bạn"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập mssv"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <EditText
+        android:id="@+id/edtC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập tuổi"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="151dp"
+        android:layout_height="63dp"
+        android:text="Lưu"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tinh"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nam"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nữ"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sở thích:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đá bóng"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chơi game"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="575dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
